@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Free CRM Run Application Suits" parallel="none">
+	<test name="Free CRM Run Test Case">
+		<classes>
+ 			<class name="com.crm.qa.testCases.LoginPageTest" />
+		</classes>
+	</test>
+</suite>
+

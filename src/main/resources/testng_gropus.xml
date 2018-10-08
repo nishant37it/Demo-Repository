@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>	
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Free CRM Run Application Suits" parallel="methods">
+	<test name="Free CRM Run Test Case">
+		<groups>
+			<run>
+				<include name="functest" />
+			<!-- 	<include name="com.crm.qa.testCases.HomePageTest" />
+				<include name="com.crm.qa.testCases.ContactsPageTest" /> -->
+			</run>
+		</groups>
+		<classes>
+         <class name = "com.crm.qa.testCases.LoginPageTest" />
+      </classes>
+	</test>
+</suite>
